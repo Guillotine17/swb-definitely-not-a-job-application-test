@@ -1,6 +1,7 @@
-# submission notes from sean
------------------------------------------
+# Submission notes from Sean
+
 The goods are in passwordForm.js & validations.js
+
 I am pretty sure im overdoing the functionality so im going to stop here and leave some notes.
 
 1. added "only valid characters" rule based on email. 
@@ -8,7 +9,7 @@ I am pretty sure im overdoing the functionality so im going to stop here and lea
 3. all labels are translated (would have better translate keys on real project)
 4. should probably have gone with a ui package/form lib but this was flow of consciousness problem solving.
 
-next steps 
+### `next steps`
 1. better styling
 2. capslock warning
 3. figure out why chrome suggests autofill pws even though its a new pw autocomplete label when type = password
@@ -16,6 +17,8 @@ next steps
 5. both fields should be required and button disabled until they are populated.
 6. do an accessiblity pass (labels for fields, icons etc)
 7. way to communicate pw requirements to chrome pw suggestion? regex requirement in HTML?
+
+# End submission notes from Sean
 
 # Getting Started with Create React App
 

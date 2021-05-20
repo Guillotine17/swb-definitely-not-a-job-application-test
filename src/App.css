@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.page-container {
+  width: 100vh;
+  font-size: medium;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2em;
+}
+
+.form-container {
+  justify-self: end;
+  display: flex;
+}
+
+.password-header {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+}
+.mask-toggle {
+  
+  cursor: pointer;
+}
+
+.feedback-row {
+  display: flex;
+}
+
+.success {
+  color: limegreen;
+}
+.feedback-row.error {
+  color: red;
+}
+.password-row {
+  padding-bottom: 1em;
+}
+.password-field {
+  font-size: xx-large;
+}
+.feedback-container {
+  user-select: none;
+  justify-self: start;
+}
+.submit-button {
+  font-size: xx-large;
 }

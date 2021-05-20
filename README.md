@@ -1,3 +1,22 @@
+# submission notes from sean
+-----------------------------------------
+The goods are in passwordForm.js & validations.js
+I am pretty sure im overdoing the functionality so im going to stop here and leave some notes.
+
+1. added "only valid characters" rule based on email. 
+2. yarn test runs a bunch of validation tests (not necessarily comprehensive)
+3. all labels are translated (would have better translate keys on real project)
+4. should probably have gone with a ui package/form lib but this was flow of consciousness problem solving.
+
+next steps 
+1. better styling
+2. capslock warning
+3. figure out why chrome suggests autofill pws even though its a new pw autocomplete label when type = password
+4. change layout so feedback is stacked vertically when on mobile. (see better styling)
+5. both fields should be required and button disabled until they are populated.
+6. do an accessiblity pass (labels for fields, icons etc)
+7. way to communicate pw requirements to chrome pw suggestion? regex requirement in HTML?
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

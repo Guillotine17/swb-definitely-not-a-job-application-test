@@ -1,0 +1,15 @@
+{
+    "minimumlength": "Password must be 6 characters or Longer",
+    "containsUpperCase": "Must Contain atleast 1 Uppercase Letter",
+    "containsLowerCase": "Must Contain atleast 1 Lowercase letter",
+    "containsNumber": "Must Contain atleast 1 Number",
+    "containsSpecialCharacter": "Must Contain atleast 1 Special Character (!@#$%^&*()_-+={[}]|:;\"'<,>.)",
+    "onlyValidCharacters": "Must contain Only Valid Characters (a-z, A-Z, 0-9, special characters listed above)",
+    "passwordsMatch": "Passwords Must Match",
+    "showPassword": "Show Password",
+    "hidePassword": "Hide Password",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Submit",
+    "successfulSubmission": "Success!"
+}
